@@ -14,7 +14,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.data.redis.listener.Topic;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -40,7 +39,7 @@ public class TopicController {
 
     /**
      * 添加书单
-     *zhujiating
+     *
      * @param map
      * @param file
      * @return
@@ -68,7 +67,7 @@ public class TopicController {
 
     /**
      * 修改书单
-     *zhujiating
+     *
      * @param bookTopic
      * @return
      */
@@ -84,7 +83,7 @@ public class TopicController {
 
     /**
      * 删除书单
-     *zhujiating
+     *
      * @param url
      * @param id
      * @return
@@ -111,7 +110,7 @@ public class TopicController {
 
     /**
      * 上传书单图片
-     *zhujiating
+     *
      * @param map
      * @param file
      * @return
@@ -133,7 +132,7 @@ public class TopicController {
 
     /**
      * 修改书单排序
-     *zhujiating
+     *
      * @param rank
      * @param id
      * @return
@@ -157,7 +156,7 @@ public class TopicController {
 
     /**
      * 修改书单的上下架
-     *zhujiating
+     *
      * @param put
      * @param id
      * @return
@@ -176,7 +175,7 @@ public class TopicController {
 
     /**
      * 删除书单
-     *zhujiating
+     *
      * @param id
      * @return
      */
